@@ -14,14 +14,14 @@ The websites in this repository serve to redirect all traffic from the domain ja
 
 This takes place in three redundant ways:
 1. a meta-redirect statement in the header, executed immediately thus taking precedence
-1. a javascript windows-location change
+1. a javascript window-location change
 1. a manual link in the body in case the other options fail.
 
 ### 404 page
 ***[404.html](404.html)*** automatically redirects any traffic that lands on any other page of this domain towards [jannikh.com](https://jannikh.com), attempting to keep the rest of the URL intact, thus avoiding going back to the homepage if the user typed an otherwise intact URL.
 
 This redirect happens in three redundant ways:
-1. a javascript windows-location change that only replaces the domain
+1. a javascript window-location change that only replaces the domain
 1. a meta-redirect statement in the header in case javascript is disabled, delayed by one second in order to allow the javascript redirect to take precedence
 1. a manual link in the body in case the other options fail. Typing an 
 
