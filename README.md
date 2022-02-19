@@ -28,7 +28,7 @@ This redirect happens in three redundant ways:
 However, if the redirected URL does not exist on jannikh.com either, the user will end up on the [404 page of jannikh.com](https://jannikh.com/404)
 
 ### Readme file
-- ([***readme.md***](readme.md) is this exact readme documentation you are reading right now, listing the files within this repository and explaining the domain redirect in detail.)
+[***readme.md***](readme.md) is this exact readme documentation you are reading right now, listing the files within this repository and explaining the domain redirect in detail.
 
 ---
 
